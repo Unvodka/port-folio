@@ -179,19 +179,19 @@ nav ul li {
 
 .b1 {
   top: 80px;
-  left: calc(50% - 300px);
+  left: calc(50% - 400px);
 }
 .b2 {
   top: 386px;
-  left: calc(50% + 300px);
+  left: calc(50% + 400px);
 }
 .b3 {
   top: 692px;
-  left: calc(50% - 300px);
+  left: calc(50% - 400px);
 }
 .b4 {
   top: 1000px;
-  left: calc(50% + 300px);
+  left: calc(50% + 400px);
 }
 
 /**************************Contact button*********************************/
@@ -322,5 +322,67 @@ nav ul li {
   .box {
     width: 300px;
     padding: 10px;
+  }
+  .b1 {
+    top: 80px;
+    left: calc(50% - 200px);
+  }
+  .b2 {
+    top: 386px;
+    left: calc(50% + 200px);
+  }
+  .b3 {
+    top: 692px;
+    left: calc(50% - 200px);
+  }
+  .b4 {
+    top: 1000px;
+    left: calc(50% + 200px);
+  }
+}
+
+@media screen and (min-width: 1399px) {
+  .box {
+    width: 500px;
+    padding: 10px;
+  }
+  .b1 {
+    top: 80px;
+    left: calc(50% - 300px);
+  }
+  .b2 {
+    top: 386px;
+    left: calc(50% + 300px);
+  }
+  .b3 {
+    top: 692px;
+    left: calc(50% - 300px);
+  }
+  .b4 {
+    top: 1000px;
+    left: calc(50% + 300px);
+  }
+}
+
+@media screen and (min-width: 1199px) {
+  .box {
+    width: 500px;
+    padding: 10px;
+  }
+  .b1 {
+    top: 80px;
+    left: calc(50% - 300px);
+  }
+  .b2 {
+    top: 386px;
+    left: calc(50% + 300px);
+  }
+  .b3 {
+    top: 692px;
+    left: calc(50% - 300px);
+  }
+  .b4 {
+    top: 1000px;
+    left: calc(50% + 300px);
   }
 }
