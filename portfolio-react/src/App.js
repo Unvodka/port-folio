@@ -18,17 +18,17 @@ function App() {
           params={{
             particles: {
               number: {
-                value: 50,
+                value: 40,
                 density: {
                   enable: true,
                   value_area: 900
                 }
               },
               shape: {
-                type: "stars",
+                type: "square",
                 stroke: {
                   width: 6,
-                  color: "#6A6D6C"
+                  color: "#555857"
                 }
               }
             }
@@ -36,6 +36,7 @@ function App() {
         />
         <Navbar />
         <Header />
+        <div className="experiences"><h2>EXPERIENCES</h2></div>
         <Resume />
         <Footer />
       </>

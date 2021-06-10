@@ -13,18 +13,21 @@ const Header = () => {
                 <Typed
                     className="typing"
                     strings={["Web Development, Software Engineer"]}
-                    typeSpeed={30}
+                    typeSpeed={40}
+                    backSpeed={50}
+                    loop
+                    backDelay={10000}
                 />
                 <br/>
  
                 <Typed
                 className="typing"
                 strings={[
-                    'Integration',
-                    'Design',
-                    'Development']}
-                    typeSpeed={20}
-                    backSpeed={40}
+                    '   Integration',
+                    '   Design',
+                    '   Development']}
+                    typeSpeed={60}
+                    backSpeed={50}
                     attr="placeholder"
                     loop >
                     <input type="text"/>
